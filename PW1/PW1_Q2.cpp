@@ -4,8 +4,8 @@
 
 
 int GCD(int a, int b);     /*This function calculates greatest common divisor of two integers.
-							              If the function does not return any result, one of the integers is 
-							              probably 0. Please enter a different value.*/
+			     If the function does not return any result, one of the integers is 
+		             probably 0. Please enter a different value.                         */
 
 
 int main() {
