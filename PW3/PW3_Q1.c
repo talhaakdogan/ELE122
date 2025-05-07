@@ -59,7 +59,7 @@ void ReverseStr(char str[]){
 void SanitizedStr(char str[]){
     int length=strlen(str);
     int newindx=0;//New string will be written on this;
-    for(int i=0; i<length; i++){ //It
+    for(int i=0; i<length; i++){
         if(str[i]>='A' && str[i]<='Z')
             str[i]=str[i]+32;
     }
